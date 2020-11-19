@@ -1,4 +1,6 @@
 namePrefix: kustomize-
+commonLabels:
+  brooks: yes
 
 resources:
 - guestbook-ui-deployment.yaml
